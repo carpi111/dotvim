@@ -18,3 +18,5 @@ open /usr/local/Cellar/macvim/HEAD
 
 Also, install the Source Code Pro font.
 
+https://github.com/adobe-fonts/source-code-pro
+

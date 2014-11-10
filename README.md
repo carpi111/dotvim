@@ -12,10 +12,16 @@ Use a new version of MacVim that includes breakindent:
 
 ```
 brew install macvim --HEAD
+
 open /usr/local/Cellar/macvim/HEAD
-# 1. drag MacVim.app to /Applications
-# 2. make sure .bash_profile has an alias to the version
-#    of Vim inside MacVim.app:
+# drag MacVim.app to /Applications
+
+cd /usr/local/Cellar/macvim/HEAD/bin
+# modify mvim: VIM_APP_DIR=/Applications
+
+cd
+# add an alias to .bash_profile that points to the
+# version of Vim inside /Applications/MacVim.app:
 # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 ```
 

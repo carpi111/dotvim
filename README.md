@@ -3,10 +3,8 @@
 ```
 git clone https://github.com/sfsam/dotvim.git ~/.vim
 cd ~/.vim
-mkdir swap
-mkdir undo
-git submodule init
-git submodule update
+mkdir swap undo
+git submodule update --init
 ```
 
 ## Dependencies

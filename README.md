@@ -1,7 +1,7 @@
 # Installation
 
 ```
-git clone git://github.com/sfsam/dotvim.git ~/.vim
+git clone https://github.com/sfsam/dotvim.git ~/.vim
 mkdir ~/.vim/swap
 mkdir ~/.vim/undo
 ```

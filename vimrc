@@ -16,7 +16,7 @@ set showbreak=…\ \    "prepend ellipsis and 2 spaces at break
 
 set viminfo+=n~/.vim/viminfo
 set undodir=~/.vim/undo
-set dir=~/.vim/swap
+set dir=~/.vim/swap//
 
 "default indentation
 set smartindent

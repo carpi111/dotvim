@@ -1,12 +1,15 @@
-# Installation
+## Installation
 
 ```
 git clone https://github.com/sfsam/dotvim.git ~/.vim
-mkdir ~/.vim/swap
-mkdir ~/.vim/undo
+cd ~/.vim
+mkdir swap
+mkdir undo
+git submodule init
+git submodule update
 ```
 
-# Dependencies
+## Dependencies
 
 Use a new version of MacVim that includes breakindent:
 

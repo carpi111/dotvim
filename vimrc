@@ -26,7 +26,8 @@ set softtabstop=2
 set shiftwidth=2  "number of columns used for indentation
 
 "FileType-specific indentation
-autocmd FileType python setlocal ts=4 sts=4 sw=4 
+autocmd FileType c setlocal ts=4 sts=4 sw=4
+autocmd FileType python setlocal ts=4 sts=4 sw=4
 
 set stl=\ %-3.3n\ %f\ %h%m%r%=%l,%c/%L\ %10.10P\ %12.12y\ 
 

@@ -1,10 +1,8 @@
 ## Installation
 
 ```
-git clone https://github.com/sfsam/dotvim.git ~/.vim
-cd ~/.vim
-mkdir swap undo
-git submodule update --init
+git clone --recursive https://github.com/sfsam/dotvim.git ~/.vim
+mkdir ~/.vim/swap ~/.vim/undo
 ```
 
 ## Dependencies

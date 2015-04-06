@@ -29,4 +29,13 @@ set shiftwidth=2  "number of columns used for indentation
 autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType python setlocal ts=4 sts=4 sw=4
 
-set stl=\ %-3.3n\ %f\ %h%m%r%=L=%l/%L\ \ C=%c\ \ %P\ \ %{&fenc?&fenc:&enc}\ \ %{&ff}\ \ %Y\ 
+set stl=\ %-3.3n\                  "buffer number
+set stl+=%f\                       "file name
+set stl+=%h%m%r                    "flags: help, modified, read-only
+set stl+=%=                        "left/right split
+set stl+=L=%l/%L\ \ \              "line number/total lines
+set stl+=C=%c\ \ \                 "column number
+set stl+=%P\ \ \                   "percent into file
+set stl+=%{&fenc?&fenc:&enc}\ \ \  "encoding
+set stl+=%Y\                       "file type
+

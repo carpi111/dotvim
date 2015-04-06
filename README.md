@@ -7,15 +7,15 @@ mkdir ~/.vim/swap ~/.vim/undo
 
 ## Dependencies
 
-Use a new version of MacVim that includes breakindent:
+MacVim:
 
 ```
-brew install macvim --HEAD
+brew install macvim
 
-open /usr/local/Cellar/macvim/HEAD
+open /usr/local/Cellar/macvim/7.4-74
 # drag MacVim.app to /Applications
 
-cd /usr/local/Cellar/macvim/HEAD/bin
+cd /usr/local/Cellar/macvim/7.4-74/bin
 # modify mvim: VIM_APP_DIR=/Applications
 
 cd

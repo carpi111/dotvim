@@ -20,6 +20,7 @@ if has("gui_running")
     let s:whi="#c6c6c6"
     let s:gr1="#6c6c6c"
     let s:gr2="#303030"
+    let s:gr3="#1c1c1c"
     let s:red="#af5f5f"
     let s:gre="#87af87"
     let s:bro="#af875f"
@@ -33,6 +34,7 @@ else
     let s:whi="251"
     let s:gr1="242"
     let s:gr2="236"
+    let s:gr3="234"
     let s:red="131"
     let s:gre="108"
     let s:bro="137"
@@ -55,7 +57,7 @@ exe "hi LineNr"      .s:v.'fg='.s:gr1.s:v.'bg='.s:bla
 exe "hi CursorLineNr".s:v.'fg=fg'    .s:v.'bg='.s:gr2
 exe "hi Question"    .s:v.'fg=fg'                    .s:v.'=NONE'
 exe "hi StatusLine"  .s:v.'fg=fg'    .s:v.'bg='.s:gr2.s:v.'=NONE'
-exe "hi StatusLineNC".s:v.'fg='.s:gr1.s:v.'bg='.s:gr2.s:v.'=NONE'
+exe "hi StatusLineNC".s:v.'fg='.s:gr1.s:v.'bg='.s:gr3.s:v.'=NONE'
 exe "hi VertSplit"   .s:v.'fg='.s:gr2.s:v.'bg='.s:gr2.s:v.'=NONE'
 exe "hi Title"       .s:v.'fg=fg'                    .s:v.'=NONE'
 exe "hi Visual"      .s:v.'fg=bg'    .s:v.'bg=fg'

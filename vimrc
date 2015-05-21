@@ -1,5 +1,8 @@
 set nocompatible      "non-vi mode uses vim features
 
+"Disable certain bundles from loading with pathogen.
+let g:pathogen_disabled = ['vim-numbertoggle']
+
 "Pathogen loads sensible.vim which augements this .vimrc.
 execute pathogen#infect()
 
@@ -17,6 +20,9 @@ set showbreak=…\ \    "prepend ellipsis and 2 spaces at break
 set viminfo+=n~/.vim/viminfo
 set undodir=~/.vim/undo
 set dir=~/.vim/swap//
+
+"shortcut for insert mode -> normal mode
+inoremap jk <esc>
 
 "default indentation
 set smartindent

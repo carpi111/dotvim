@@ -1,7 +1,7 @@
 set nocompatible      "non-vi mode uses vim features
 
 "Disable certain bundles from loading with pathogen.
-let g:pathogen_disabled = ['vim-numbertoggle']
+let g:pathogen_disabled = ['vim-numbertoggle', 'slimv', 'paredit.vim']
 
 "Pathogen loads sensible.vim which augements this .vimrc.
 execute pathogen#infect()
@@ -34,6 +34,13 @@ set shiftwidth=2  "number of columns used for indentation
 "FileType-specific indentation
 autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType python setlocal ts=4 sts=4 sw=4
+
+" tslime {{{
+let g:tslime_ensure_trailing_newlines = 1
+let g:tslime_normal_mapping = '<localleader>t'
+let g:tslime_visual_mapping = '<localleader>t'
+let g:tslime_vars_mapping = '<localleader>T'
+" }}}
 
 set stl=\ %-3.3n\                  "buffer number
 set stl+=%f\                       "file name

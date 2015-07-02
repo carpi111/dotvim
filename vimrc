@@ -1,7 +1,7 @@
 set nocompatible      "non-vi mode uses vim features
 
 "Disable certain bundles from loading with pathogen.
-let g:pathogen_disabled = ['vim-numbertoggle', 'slimv', 'paredit.vim']
+let g:pathogen_disabled = ['vim-numbertoggle', 'paredit.vim']
 
 "Pathogen loads sensible.vim which augements this .vimrc.
 execute pathogen#infect()

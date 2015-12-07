@@ -1,7 +1,7 @@
 set nocompatible      "non-vi mode uses vim features
 
 "Disable certain bundles from loading with pathogen.
-let g:pathogen_disabled = ['vim-numbertoggle', 'paredit.vim']
+"let g:pathogen_disabled = ['vim-numbertoggle', 'paredit.vim']
 
 "Pathogen loads sensible.vim which augements this .vimrc.
 execute pathogen#infect()
@@ -27,13 +27,17 @@ inoremap jk <esc>
 "default indentation
 set smartindent
 set expandtab     "expand tabs to spaces
-set tabstop=2     "how many columns a tab counts for
-set softtabstop=2
-set shiftwidth=2  "number of columns used for indentation
+set tabstop=4     "how many columns a tab counts for
+set softtabstop=4
+set shiftwidth=4  "number of columns used for indentation
 
 "FileType-specific indentation
 autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType python setlocal ts=4 sts=4 sw=4
+autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+
+"Disable automatic comment insertion
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " tslime {{{
 let g:tslime_ensure_trailing_newlines = 1

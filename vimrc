@@ -36,9 +36,6 @@ autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType python setlocal ts=4 sts=4 sw=4
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
 
-"Disable automatic comment insertion
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
 " tslime {{{
 let g:tslime_ensure_trailing_newlines = 1
 let g:tslime_normal_mapping = '<localleader>t'

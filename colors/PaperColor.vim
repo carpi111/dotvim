@@ -30,7 +30,7 @@ let s:themes['default'] = {
 let s:themes['default'].light = {
       \     'TEST_256_COLOR_CONSISTENCY' : 1,
       \     'palette' : {
-      \       'color00' : ['#f6f6f6', '255'],
+      \       'color00' : ['#fcfcfc', '255'],
       \       'color01' : ['#af0000', '124'],
       \       'color02' : ['#008700', '28'],
       \       'color03' : ['#5f8700', '64'],

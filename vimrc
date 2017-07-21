@@ -50,6 +50,9 @@ noremap <C-l> :CtrlP ~/Dropbox/Notes<CR>
 autocmd BufRead ~/Dropbox/Notes/* setlocal ft=markdown
 autocmd BufRead ~/Dropbox/Notes/* setlocal ts=2 sts=2 sw=2
 
+"don't underline URLs
+let g:highlighturl_underline = 'NONE'
+
 "FileType-specific indentation
 autocmd FileType c setlocal ts=4 sts=4 sw=4
 autocmd FileType python setlocal ts=4 sts=4 sw=4

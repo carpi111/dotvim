@@ -22,3 +22,6 @@
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-highlighturl"]
+	path = bundle/vim-highlighturl
+	url = https://github.com/itchyny/vim-highlighturl.git

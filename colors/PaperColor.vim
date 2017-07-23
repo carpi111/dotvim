@@ -130,7 +130,7 @@ let s:themes['default'].dark = {
       \       'cursor_bg' : ['#c6c6c6', '251'],
       \       'cursorline' : ['#303030', '236'],
       \       'cursorcolumn' : ['#303030', '236'],
-      \       'cursorlinenr_fg' : ['#ffff00', '226'],
+      \       'cursorlinenr_fg' : ['#999999', '226'],
       \       'cursorlinenr_bg' : ['#1c1c1c', '234'],
       \       'popupmenu_fg' : ['#c6c6c6', '251'],
       \       'popupmenu_bg' : ['#303030', '236'],
